@@ -1,0 +1,28 @@
+{
+  "name": "tz-converter",
+  "version": "1.0.0",
+  "description": "Library for converting times between IANA timezones",
+  "main": "index.js",
+  "author": "clairefro <claire.froelich@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "lint": "npm run eslint"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
